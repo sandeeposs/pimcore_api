@@ -1,0 +1,386 @@
+/* Header Styles */
+.visit-gogo {
+	margin-top: 45px;
+}
+/* Header Styles */
+
+
+/* Jumbotron Styles */
+
+.container .jumbotron{
+	background: url('../img/hero-img.png') no-repeat #83c6e2;
+	background-size: 105%;
+	background-position: center bottom;
+}
+
+.jumbotron h1, .jumbotron h2{
+	font-family: 'kari_proitalic', sans-serif !important;
+	text-transform: inherit;
+}
+
+.jumbotron h1{
+	font-size: 2.625em;
+	color: #EC1932;
+	margin-top: -15px;
+	margin-bottom: -18px;
+}
+
+.jumbotron h2{
+	color: #fff;
+	font-size: 1.250em;
+}
+
+.jumbotron h6{
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	font-size: 0.625em;
+}
+
+.jumbotron .col-xs-7{
+	padding-right: 0px !important;
+}
+
+.coin{
+	background: url('../img/circle.png') no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	display: block;
+	min-height: 105px;
+	max-height: 130px;
+	width: 100%;
+	max-width: 130px;
+}
+
+.check, .flip-flops{
+	background-position: center center !important;
+	top:21px;
+	max-width: 125px;
+	width: 77%;
+	min-height: 60px;
+	max-height:117px;
+	position: absolute;
+}
+
+.check{
+	background: url('../img/check-mark.png') no-repeat;
+	background-size: 100%;
+	display: none;
+	z-index: 4;	
+}
+
+.flip-flops{
+	background: url('../img/flip-flops.png') no-repeat;
+	background-size: 70%;
+	display: block;
+  z-index: 3;	
+}
+/* Jumbotron Styles */
+
+/* Main Styles */
+body{
+	background: #9cd2f0;
+}
+
+.tablet{
+	display: none !important;
+}
+
+.edge2edge h2{
+	font-size: 1.125em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.blu-box{
+	background: #c0e2f0;
+}
+
+.blu-box-light{
+	background: #d7ecf6;
+}
+
+.blu-box, .blu-box-light{
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.pass-column, .buy-column{
+	display: inline-block;
+}
+
+.pass-column{
+	width: 65%;
+}
+
+.buy-column{
+	width: 30%;
+	float: right;
+}
+
+.pass-column h1, .buy-column h1{
+	font-size: 3.125em;
+	font-family: 'standard_ct_condensed_mediuMd', sans-serif !important;
+	color: #004270;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.pass-column h2{
+	font-size: 1.250em;
+	color: #7c8d96;
+	margin-top: 0;
+	margin-bottom:0; 
+}
+
+.pass-column h4{
+	font-family: Helvetica,Arial,sans-serif !important;
+	color: #7c8d96;
+	font-weight: bold;
+	text-transform: inherit;
+	font-size: 0.875em !important;
+}
+
+.pass-column ul{
+	padding-left: 15px;
+}
+
+.pass-column li, p{
+	font-size: 0.750em;
+}
+
+.pass-price{
+	background: url('../img/price-circle.png') no-repeat;
+	min-height: 80px;
+	max-height: 100px;
+	width: 100%;
+	max-width: 100px;
+	background-size: 100%;
+	background-position: center center;
+	display: block;
+	float: right; 
+	margin: 0 auto 20px;
+}
+
+.price {
+  padding-top: 10px;
+}
+
+.btn-red{
+	margin: 0 4px 0 0;
+  float: right;
+}
+/* Main Styles */
+
+/* Airline Styles */
+.devices h3, .airlines h3{
+	font-size: 0.875em;
+}
+
+.airlines{
+	margin:20px auto 0;
+}
+
+.airlines ul {
+  padding-left: 0;
+  width: 100%;
+  color: #82c6e1;
+}
+/* Airline Styles */
+
+/* Footer Banner Ad */
+.banner-ad{
+	background: #d0ebf7 url('../img/mobile/mobile-footer-cloud.png') no-repeat;
+	height: 55px;
+	background-size: 62%;
+	background-position: right bottom;
+	display: block;
+	margin: 25px auto 20px;
+	padding:0 0 0 10px;
+	border: 1px solid #8fcce4;	
+}
+
+.banner-ad h2{
+	font-family: 'standard_ct_condensed_mediuMd', sans-serif !important;
+	font-size: 1.750em;
+	margin-top: 15px;
+}
+
+a.banner-ad{
+	border: none;
+	text-decoration: none;
+}
+/* Footer Banner Ad */
+
+@media only screen and (min-width: 340px){
+/* Header Styles */
+	.container .jumbotron {
+		padding-top: 5px;
+	}
+/* Header Styles */
+	
+/* Main Styles */
+	.price{
+		padding: 13px 0 0;
+	}
+	
+	.check, .flip-flops {
+		height: 63px;
+	}
+/* Main Styles */
+}
+
+@media only screen and (min-width: 360px){
+/* Header Styles */
+	.container .jumbotron {
+		padding-top: 7px;
+	}
+/* Header Styles */
+	
+/* Main Styles */
+	.jumbotron h2 {
+    font-size: 1.5em;
+	}
+	
+	.jumbotron h1 {
+    font-size: 2.85em;
+	}
+	
+	.jumbotron h6 {
+    font-size: 0.67em;
+	}
+	
+	.pass-price{
+		height:100px;
+	}
+	
+	.coin{
+		height: 130px;
+	}
+
+	.price{
+		padding:20px 0 0px;
+	}
+	
+	.check, .flip-flops {
+		height: 67px;
+		top: 30px;
+	}
+/* Main Styles */
+}
+
+
+@media only screen and (min-width: 380px){
+/* Main Styles */
+	.container .jumbotron {
+    padding-top: 10px;
+	}
+	
+	.check, .flip-flops {
+		width: 72%;
+		top: 6px;
+		min-height: 117px;
+		margin-left: 7px;
+	}
+/* Main Styles */
+}
+
+@media only screen and (min-width: 400px){
+/* Main Styles */
+	.container .jumbotron {
+    padding-top: 10px;
+	}
+	
+	.check, .flip-flops {
+		width: 70%;
+		margin-left: 9px;
+	}
+/* Main Styles */
+}
+
+@media only screen and (min-width: 440px){
+/* Main Styles */
+	.container .jumbotron {
+    padding-top: 15px;
+	}
+	
+	.check, .flip-flops {
+		margin-left: 4px;
+	}
+/* Main Styles */
+}
+
+
+@media only screen and (min-width: 480px){
+/* Jumbotron Styles */
+	.container .jumbotron {
+    height: 200px;
+    padding-top: 25px;
+  }
+
+	.jumbotron h1 {
+    font-size: 3.8em;
+    margin-bottom: -22px;
+    margin-top: -20px;
+	}
+
+	.jumbotron h2 {
+	  font-size: 2.00em;
+	}
+	
+	.jumbotron h6 {
+    font-size: 0.87em;
+	}
+/* Jumbotron Styles */
+
+/* Main Styles */
+	.coin{
+		margin-left: 20px;
+	}
+	
+	.btn-red {
+    margin: 0 12px 0 0;
+	}
+
+	.edge2edge h2 {
+    font-size: 1.425em;
+  }
+
+	.pass-column h4 {
+		font-size: 1em !important;
+	}
+	
+	.pass-column li, p {
+	  font-size: 0.95em;
+	}
+/* Main Styles */
+
+/* Airline Styles */
+	.devices h3, .airlines h3 {
+    font-size: 1.075em;
+  }
+  
+  .airlines ul li {
+  	font-size: 0.85em;
+  }
+/* Airline Styles */
+
+/* Footer Banner Ad */
+	.banner-ad {
+		background-size: 41%;
+	}
+
+	.banner-ad h2 {
+		font-size: 2.25em;
+    margin-top: 11px;
+	}
+/* Footer Banner Ad */
+}
+
+@media only screen and (min-width: 540px){
+/* Jumbotron Styles */
+	.container .jumbotron {
+    padding-top: 25px;
+  }
+/* Jumbotron Styles */
+}
+

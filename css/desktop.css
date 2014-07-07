@@ -1,0 +1,157 @@
+/* Jumbotron Styles */
+.container .jumbotron {
+	height: 300px;
+	padding-top: 35px;
+}
+
+.jumbotron h2 {
+	font-size: 2.75em;
+}
+
+.jumbotron h1 {
+  font-size: 5.75em;
+  margin-bottom: -28px;
+  margin-top: -27px;
+}
+
+.jumbotron h6 {
+	font-size: 1.3em;
+}
+/* Jumbotron Styles */
+
+
+/* Main Styles */
+body{
+	color: #5f6a73;
+	background: #d5ecf8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #d5ecf8 0%, #9cd2f0 100%) fixed; /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5ecf8), color-stop(100%,#9cd2f0)) fixed; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #d5ecf8 0%,#9cd2f0 100%) fixed; /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #d5ecf8 0%,#9cd2f0 100%) fixed; /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #d5ecf8 0%,#9cd2f0 100%) fixed; /* IE10+ */
+  background: linear-gradient(to bottom,  #d5ecf8 0%,#9cd2f0 100%) fixed; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5ecf8', endColorstr='#9cd2f0',GradientType=0 ) fixed; /* IE6-9 */
+  padding-top: 0;
+}
+
+
+
+.edge2edge h2 {
+	font-size: 1.625em;
+}
+
+.coin {
+  max-width: 220px;
+  min-height: 220px;
+  margin-left: 25px;
+  margin-top: -15px;
+}
+
+.container {
+  width: 97% !important;
+}
+
+.check, .flip-flops {
+  margin-left: 7px;
+  top: 14px;
+  max-width: 210px;
+  min-height: 160px;
+}
+
+.buy-column a {
+	margin: 0 56px 15px;
+}
+
+.pass-price {
+	max-width: 125px;
+	min-height: 125px;
+	margin: 15px auto 20px;
+}
+
+.price {
+  font-size: 5em !important;
+  padding: 12px 0 0;
+}
+/* Main Styles */
+
+
+/* Airline Styles */
+.devices h3, .airlines h3 {
+  font-size: 1.20em;
+  padding-bottom: 7px;
+}
+/* Airline Styles */
+
+
+/* Footer Banner Ad */
+.film-roll {
+	height: 118px;
+	background-size: 14% auto;
+	padding: 16px 0 0 137px;
+}
+
+.banner-ad{
+	height: 118px;
+	background-size: 29% auto;
+}
+
+.banner-ad h2 {
+  font-size: 70px;
+  line-height: 34px;
+}
+
+.banner-ad h2 span {
+	font-size: 34px;
+}
+
+.banner-ad p {
+  font-size: 1.15em;
+  margin: 0 0 6px;
+  line-height: 1.4em;
+}
+
+.banner-left {
+	width: 275px;
+	margin: 0 0 0 41px;
+}
+/* Footer Banner Ad */
+
+
+@media only screen and (min-width: 1060px){
+/* Jumbotron Styles */
+.container .jumbotron {
+  height: 316px;
+}
+/* Jumbotron Styles */
+
+/* Main Styles */
+.pass-column h1, .buy-column h1 {
+	font-size: 3.125em;
+}
+
+.pass-column h2 {
+	font-size: 1.35em;
+}
+
+.buy-column a {
+	margin: 0 72px 15px;
+}
+
+.pass-column li, p {
+	font-size: 0.875em;
+}
+/* Main Styles */
+
+/* Footer Banner Ad */
+.film-roll {
+	background-size: 12% auto;
+}
+
+.banner-ad {
+	background-size: 26% auto;
+}
+/* Footer Banner Ad */    
+}
+
+
+

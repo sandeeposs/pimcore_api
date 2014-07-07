@@ -1,0 +1,241 @@
+/* Header Styles */
+.visit-gogo {
+	margin-top: 80px;
+}
+/* Header Styles */
+
+
+/* Jumbotron Styles */
+.jumbotron .row{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container .jumbotron {
+	height: 245px;
+}
+
+.jumbotron h1 {
+	font-size:4.75em;
+}
+
+.jumbotron h6 {
+  font-size: 1.1em;
+}
+/* Jumbotron Styles */
+
+
+/* Main Styles */
+.mobile{
+	display: none !important;
+}
+
+.tablet{
+	display: block !important;
+}
+
+.container {
+	width:100%;
+}
+
+.edge2edge .col-sm-12{
+ margin-left: -15px !important;
+ margin-right: -15px !important;
+}
+
+.container .edge2edge {
+	margin-bottom: 10px;
+}
+
+.edge2edge h2{
+	display: inline;
+}
+
+.coin{
+	min-height: 170px;
+	max-height: 272px;  
+	max-width: 170px;
+}
+
+.check, .flip-flops {
+  max-height: 150px;
+  max-width: 160px;
+  margin-left: 7px;
+  top: 26px;
+}
+
+.blu-box, .blu-box-light {
+	min-height: 460px;
+}
+
+.padding-boxes{
+	padding-left: 10px;
+  padding-right: 10px;
+}
+
+.padding-boxes .col-sm-3{
+	padding-left: 5px;
+  padding-right: 5px;
+}
+
+.buy-column, .pass-column {
+  float: none;
+  width: 100%;
+}
+
+.pass-column ul {
+  padding-left: 5px;
+}
+
+.pass-column li, p {
+	font-size: 0.75em;
+}
+
+.pass-column h1, .buy-column h1 {
+	font-size: 2.025em;
+}
+
+.pass-column h2 {
+	font-size: 1em;
+}
+
+.pass-price{
+	margin: 5px auto 10px;
+}
+
+.btn-red, .pass-price {
+	float: none;
+}
+
+.buy-column a{
+	margin: 0 25px 10px;
+}
+/* Main Styles */
+
+
+/* Airline Styles */
+.airlines {
+	margin: 0 auto;
+}
+/* Airline Styles */
+
+
+/* Footer Banner Ad */
+.banner-ad{
+	background: #d0ebf7 url('../img/desktop/desktop-footer-cloud.png') no-repeat;
+	height: 90px;
+	background-size: 33%;
+	background-position: right bottom;
+	display: block;
+	padding:0;
+	border: 1px solid #8fcce4;	
+}
+
+.film-roll{
+	background: url('../img/desktop/desktop-footer-film.png') no-repeat;
+	height: 90px;
+	background-size: 15%;
+	background-position: left bottom;
+	display: block;
+	padding:13px 0 0 90px;
+}
+
+.banner-ad h2{
+	font-family: 'standard_ct_condensed_mediuMd', sans-serif !important;
+	font-size: 48px;
+	line-height: 23px;
+	float: left;
+}
+
+.banner-ad h2 span{
+	font-size: 23px;
+}
+
+.banner-left{
+	width:260px; 
+	float:left;
+	margin: 0 0 0 20px;
+}
+
+.banner-ad .btn-sm{
+	font-size:1.125em;
+	font-family: 'standard_ct_condensed_mediuMd', sans-serif !important;
+	padding: 3px 30px 3px 10px;
+}
+
+.banner-ad p{
+	font-size:0.875em;
+	line-height:1.000em;
+}
+
+a .banner-ad p, a:hover .banner-ad p, a:focus .banner-ad p{
+	color: #333 !important;
+}
+
+.arrow, a:hover .arrow, a:focus .arrow{
+	background-position: 105px center;
+}
+
+.arrow span{
+	border-right: 1px #fff dashed;
+	padding-right: 5px;
+}
+
+/* Footer Banner Ad */
+
+@media only screen and (min-width: 767px){
+/* Main Styles */
+	.price{
+		font-size: 4.25em !important;
+		padding: 8px 0 0;
+	}
+
+	.pass-column h1, .buy-column h1 {
+    font-size: 2.575em;
+  }
+  
+  .pass-column h2 {
+    font-size: 1.15em;
+	}
+	
+	.buy-column a {
+    margin: 0 40px 15px;
+	}
+	
+	.pass-column h4 {
+    font-size: 1.1em !important;
+	}
+	
+	.pass-column li, p {
+    font-size: 0.77em;
+	}
+/* Main Styles */
+
+/* Footer Banner Ad */
+.film-roll{
+	background-size: 13%;
+	padding: 13px 0 0 110px;
+}
+
+.banner-ad .btn-sm {
+	font-size: 1.25em;
+}
+
+.banner-ad p {
+  font-size: 0.975em;
+  margin: 0 0 5px;
+}
+
+.banner-left {
+  margin: 0 0 0 25px;
+}
+
+.arrow, a:hover .arrow, a:focus .arrow {
+	background-position: 113px center;
+}
+
+.banner-ad{
+	background-size: 27%;
+}
+/* Footer Banner Ad */
+}

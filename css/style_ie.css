@@ -1,0 +1,75 @@
+/**
+ * IE specific styles
+ * As of July 2011 we no longer support IE6.
+ * We only support IE7 & IE8.
+ */
+
+/**
+ * Legacy IE-fixes
+ */
+#cloud-graphic { position:absolute; left:534px; top:300px; width:390px; height:88px; z-index:10; }
+#footer, #nav li, .content, .pagination, .buttons, .expandTrigger, #airlineMiniContent, #techSpecsAndFAQs, #videoThumbs, .seatFinder { height:1%; }
+#createAccountForm, #airlines .tertiaryNav li, .tertiaryNav li a { zoom:1; }
+*:first-child+html .sectionSeparator { margin-top:50px; }
+* html .sectionSeparator { margin-top:38px; }
+span.textareaBox textarea { border:0; width:234px; }
+form#partnerInquiry textarea { height:74px; }
+form#corporateInquiry textarea { height:313px; }
+form#contactForm textarea { height:328px; }
+#deviceModalTabs div { background:white; }
+#deviceNav li a { height:19px; padding-top:5px; }
+#deviceNav a i { margin-top:-5px; }
+sup { vertical-align:text-top; font-size:.833em; }
+*:first-child+html sup { font-size:.833em; vertical-align:super; }
+* html sup { font-size:.833em; vertical-align:super; }
+#countrySelect select { width:198px; }
+div.checkbox input, div.radio input { overflow:hidden; }
+/*  IE6-specific fixes */
+#homepageFeatures .content { height:296px; }
+* html #homepageFeatures h2 img { position:relative; }
+* html #youtubeExpander, * html #fbExpander { margin-top:-12px; }
+* html .pass { height:90px; }
+* html #header { height:150px; }
+* html #navBar { height:34px; }
+* html a:hover { background-color:transparent; }
+* html #deviceGrid div { height:200px; }
+* html #deviceModalTabs { height:380px; }
+* html div.horizontal div.miniContent { height:115px; }
+* html #gogoModal div.horizontal.miniContent { height:105px; }
+* html #airlineMiniContent .miniContent { height:240px; }
+* html #sideTabSet { height:660px; }
+* html #shareLinks { height:150px; }
+* html #gogoModalBackground, * html #gogoModalLoading, * html #gogoModal { position:absolute; }
+* html label iframe { background:transparent; position:absolute; width:150px; height:80px; bottom:48px; right:-65px; }
+* html #modalTopCap { background:url(/static/dotcom/img/modal_topcap_621_ie6.png) 0 0 no-repeat; }
+* html #modalContent { background:url(/static/dotcom/img/modal_bg_621_ie6.png) 0 0 repeat-y; }
+* html #modalBottomCap { background:url(/static/dotcom/img/modal_bottomcap_621_ie6.png) 0 0 no-repeat; }
+* html div.smallModal #modalTopCap { background:url(/static/dotcom/img/modal_topcap_346_ie6.png) 0 0 no-repeat !important; }
+* html div.smallModal #modalContent { background:url(/static/dotcom/img/modal_bg_346_ie6.png) 0 0 repeat-y !important; }
+* html div.smallModal #modalBottomCap { background:url(/static/dotcom/img/modal_bottomcap_346_ie6.png) 0 0 no-repeat !important; }
+* html.sIFR-hasFlash #createAccountBillboard li { font-size:11px; line-height:14px; height:26px !important; }
+* html #goodThingsToKnowAboutGogo, * html #goodThingsToKnowAboutGogo * { float:none !important; }
+* html #goodThingsToKnowAboutGogo div.miniContent { float:none; width:100%; margin:0; padding:0; height:auto !important; }
+* html div.inflightService { float:left; padding-bottom:0px; width:100%; }
+* html #airlineInfographicDelta{ float:right; margin-top:-20px; margin-bottom:1.5em; }
+* html .hasTertiaryNav #primary { float:right; width:615px; height:600px; }
+* html .stepChanger { margin-top:-24px; }
+*:first-child+html .stepChanger { margin-top:-24px; }
+*:first-child+html #airlineInfographic { margin-left:15px; }
+* html #modalIframe { height:369px; }
+* html .container { width:129px; float:left; position:relative; display:inline; margin:10px 0 0 26px; }
+*:first-child+html .container { width:129px; float:left; position:relative; display:inline; margin:7px 0 0 26px; }
+*:first-child+html fieldset#createAccountCheckboxes { float:right; margin-left:300px; margin-top:-50px; position:relative; width:565px; }
+* html .toggle_container .block { margin-left:-20px; padding-top:10px }
+* html .price-wrap { float:left; position:relative; width:660px; border-bottom:1px solid #cdcdcd; padding-bottom:20px; margin-bottom:20px; min-height:90px; vertical-align:baseline }
+* html .priceBox { float:left; position:relative; width:300px; margin:0 0 10px 0 }
+* html .priceColDesc{ float:left; position:relative; width:120px; margin:-3px 0 0 -10px; display:inline }
+* html .priceColBuy{ float:left; position:relative; width:120px; margin-left:-10px; display:inline }
+
+
+/**
+ * New IE-fixes (July 2011)
+ */
+#inFlight_wrap .gutter { width:100%; }
+.right_oneThird { float:right; width:80px; }
+#inFlight_wrap .gutter .right_oneThird h5.prices { margin-right:20px; }
