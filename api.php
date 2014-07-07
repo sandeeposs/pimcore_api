@@ -105,9 +105,13 @@ class api {
                         $this->channelArr[$channelKey][$eval->name] = $eval->value;
                         if(strtolower($this->channelArr[$channelKey]['name']) == strtolower($this->channelName)) {
                             $this->channelId = $channelKey;
-                        }
+                        }                        
                     }
                     unset($this->channelArr[$channelKey]['elements']);
+                }
+                if(!in_array($this->channelId, array_keys($this->channelArr))) {
+                    $this->channelId = 0;
+                    $this->channelName = null;
                 }
             }
         }
