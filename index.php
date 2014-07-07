@@ -228,7 +228,7 @@ $data = $objC->data;
 						</div>
 					
 						<a class="buy_now"
-						    href="#"
+						    href="http://www.gogoair.com/gogo/purchase.do?passdetail=gen&landingFlag=true"
 						    target="_blank"><img
 						    src="img/BuyNow_Btn_2.png"
 						    target="_blank" alt="Buy Now" /></a>
