@@ -1,9 +1,9 @@
 <?php
 class api {
-    private $url = 'http://pimcore_ent_30.local/webservice/rest/';
-    private $api_key = '74e60552988927c51caac2bfea4e55a213716b6c48ce489e08d11b644553554d';
-    //private $url = 'http://gogoairadmin.ossclients.com/webservice/rest/';
-    //private $api_key = '11a3187ed76ce5ab784933dcbf954f5f8b5357569f6dd6ee2dfe2febb0383020';
+    //private $url = 'http://pimcore_ent_30.local/webservice/rest/';
+    //private $api_key = '74e60552988927c51caac2bfea4e55a213716b6c48ce489e08d11b644553554d';
+    private $url = 'http://gogoairadmin.ossclients.com/webservice/rest/';
+    private $api_key = '11a3187ed76ce5ab784933dcbf954f5f8b5357569f6dd6ee2dfe2febb0383020';
     public $channelArr = array();
     public $productArr = array();
     public $objectArr = array();
